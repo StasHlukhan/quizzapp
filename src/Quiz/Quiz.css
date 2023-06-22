@@ -4,6 +4,7 @@
     border: 1px solid aqua;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 10px 0 10px;
     margin: 0 10px 10px 10px;
 }
@@ -29,19 +30,14 @@
     justify-content: center;
    margin: 0 0 10px 10px;
 }
-.cancel{
+.button{
     
     padding: 5px 10px 5px 10px;
     border: 1px solid black;
     text-decoration: none;
     margin-top: 10px;
 }
-.submit{
-    padding: 5px 10px 5px 10px;
-    border: 1px solid black;
-    text-decoration: none;
-    margin-top: 10px;
-}
+
 .quiz_question{
     display: flex;
     align-items: center;

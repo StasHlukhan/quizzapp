@@ -41,7 +41,13 @@ const QuizList: React.FC = () => {
       <ul className='quizzes'>
         {quizzes.map((quiz) => (
           <li className='quiz' key={quiz.id}>
-            <Link to={`/quiz/${quiz.id}`}>Quiz {quiz.id + 1}</Link>
+            <div className='quiz_info'>
+              <Link to={`/quiz/${quiz.id}`}>Quiz {quiz.id + 1}</Link>
+              <p>Questions: 10</p>
+            </div>
+            
+
+            <button className='button' ><Link to={`/quiz/${quiz.id}`}>play</Link></button>
           </li>
         ))}
       </ul>

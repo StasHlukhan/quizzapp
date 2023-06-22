@@ -98,7 +98,7 @@ const QuizDetail: React.FC = () => {
                 </>
               )}
               {!showResult && (
-                <button className='submit' disabled={selectedAnswer === null} onClick={handleSubmitAnswer}>
+                <button className='button' disabled={selectedAnswer === null} onClick={handleSubmitAnswer}>
                   Submit Answer
                 </button>
               )}
@@ -106,7 +106,7 @@ const QuizDetail: React.FC = () => {
           ) : (
             <p>Loading question...</p>
           )}
-          <Link className='cancel' to='/'>Cancel</Link>
+          <Link className='button' to='/'>Cancel</Link>
         </>
         
       )}
