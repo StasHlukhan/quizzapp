@@ -1,0 +1,53 @@
+.quiz{
+    height: 50px;
+    
+    border: 1px solid aqua;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 10px 10px;
+}
+.quiz a{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+.quiz_title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.luck{
+    background-color: white;
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 0 0 10px 10px;
+}
+.cancel{
+    
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.submit{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.quiz_question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.question_num{
+    margin-bottom: 30px;
+}
